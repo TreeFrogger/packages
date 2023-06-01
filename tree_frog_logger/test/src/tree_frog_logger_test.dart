@@ -5,7 +5,7 @@ import 'package:tree_frog_logger/tree_frog_logger.dart';
 void main() {
   group('TreeFrogLogger', () {
     test('can be instantiated', () {
-      expect(TreeFrogLogger(), isNotNull);
+      expect(Logger(), isNotNull);
     });
   });
 }
